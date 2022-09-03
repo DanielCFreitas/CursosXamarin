@@ -2,23 +2,26 @@
 
 public partial class MainPage : ContentPage
 {
-	int count = 0;
+	int quantidade = 1;
 
 	public MainPage()
 	{
 		InitializeComponent();
 	}
 
-	private void OnCounterClicked(object sender, EventArgs e)
+	private void Aumentar(object sender, EventArgs e)
 	{
-		count++;
+		quantidade++;
+		LblQuantidade.Text = quantidade.ToString();
+	}
 
-		if (count == 1)
-			CounterBtn.Text = $"Clicked {count} time";
-		else
-			CounterBtn.Text = $"Clicked {count} times";
-
-		SemanticScreenReader.Announce(CounterBtn.Text);
+	private void Diminuir(object sender, EventArgs e)
+	{
+		if( quantidade != 0)
+		{
+            quantidade--;
+            LblQuantidade.Text = quantidade.ToString();
+        }
 	}
 }
 
