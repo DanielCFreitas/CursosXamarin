@@ -13,7 +13,7 @@ namespace AppGallery
              * NavigationPage
              * */
             // MainPage = new NavigationPage(new Conteudo01());  
-            
+
 
             /**
              *  Modal
@@ -22,15 +22,21 @@ namespace AppGallery
 
 
             /**
-             *  Carousel
+             *  Carousel 
              * */
+            // VIA C#
             //var carousel = new CarouselPage();
             //carousel.Children.Add(new Conteudo01());
             //carousel.Children.Add(new Conteudo02());
             //carousel.Children.Add(new Conteudo03());
             //carousel.CurrentPage = carousel.Children[1];
-            MainPage = new XamarinForms.Paginas.PaginaDeCarrossel.Carousel();
+            // VIA XAML
+            //MainPage = new XamarinForms.Paginas.PaginaDeCarrossel.Carousel();
 
+            /**
+             *  TabPage
+             */
+            MainPage = new XamarinForms.Paginas.PaginaDeAbas.Abas();
 
         }
 
