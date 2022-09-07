@@ -6,11 +6,15 @@
              x:Class="AppGallery.XamarinForms.Paginas.PaginaDeNavegacao.Conteudo03">
     <ContentPage.Content>
         <StackLayout>
+            <Button Text="Inserir página na pilha" Clicked="InserirPaginaNaPilha"/>
+            <Button Text="Remover página da pilha" Clicked="RemoverPaginaDaPilha"/>
+            
             <Label Text="Página de Conteúdo 03"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
 
             <Button Text="Voltar - Pagina02" Clicked="VoltarParaPaginaAnterior"/>
+            <Button Text="Voltar para o inicio" Clicked="VoltarParaInicio"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
