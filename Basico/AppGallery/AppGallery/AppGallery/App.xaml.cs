@@ -36,8 +36,19 @@ namespace AppGallery
             /**
              *  TabPage
              */
-            MainPage = new XamarinForms.Paginas.PaginaDeAbas.Abas();
+            //MainPage = new XamarinForms.Paginas.PaginaDeAbas.Abas();
 
+
+            /**
+             *   Master Detail Page
+             */
+            // VIA C#
+            //var pagina = new MasterDetailPage();
+            //pagina.Master =  ;// MENU
+            //pagina.Detail =  new Conteudo01();// CONTEUDO
+            //MainPage = pagina;
+            // VIA XAML
+            MainPage = new XamarinForms.Paginas.PaginaDeMenuLateral.PaginaComMenuLateral();
         }
 
         protected override void OnStart()
