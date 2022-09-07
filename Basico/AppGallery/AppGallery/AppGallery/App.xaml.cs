@@ -1,5 +1,4 @@
-﻿using AppGallery.XamarinForms.Paginas.PaginaDeCarrossel;
-using Xamarin.Forms;
+﻿using Xamarin.Forms;
 
 namespace AppGallery
 {
@@ -48,7 +47,10 @@ namespace AppGallery
             //pagina.Detail =  new Conteudo01();// CONTEUDO
             //MainPage = pagina;
             // VIA XAML
-            MainPage = new XamarinForms.Paginas.PaginaDeMenuLateral.PaginaComMenuLateral();
+            //MainPage = new XamarinForms.Paginas.PaginaDeMenuLateral.PaginaComMenuLateral();
+
+
+            MainPage = new AppBase.Menu();
         }
 
         protected override void OnStart()
