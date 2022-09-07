@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             NavigationPage.HasBackButton="False"
              Title="Conteúdo 03"
              x:Class="AppGallery.XamarinForms.Paginas.PaginaDeNavegacao.Conteudo03">
     <ContentPage.Content>
@@ -8,6 +9,8 @@
             <Label Text="Página de Conteúdo 03"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+
+            <Button Text="Voltar - Pagina02" Clicked="VoltarParaPaginaAnterior"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
