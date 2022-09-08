@@ -50,9 +50,15 @@ namespace AppGallery.AppBase
             ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
         }
 
-        private void Button_Clicked(object sender, EventArgs e)
+        private void AbrirStackLayout(object sender, EventArgs e)
         {
             ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Leiaouts.PilhaLeiaout.Pilha();
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirGridLayout(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Leiaouts.GradeLeiaout.Grade();
             ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
         }
     }

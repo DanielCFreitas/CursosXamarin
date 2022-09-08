@@ -16,7 +16,8 @@
                 <Button Text="Modal" Clicked="AbrirPaginaModal"/>
 
                 <Label Text="Leiautes"/>
-                <Button Text="StackLayout" Clicked="Button_Clicked"/>
+                <Button Text="StackLayout" Clicked="AbrirStackLayout"/>
+                <Button Text="Grid" Clicked="AbrirGridLayout"/>
             </StackLayout>
         </ContentPage>
     </MasterDetailPage.Master>
