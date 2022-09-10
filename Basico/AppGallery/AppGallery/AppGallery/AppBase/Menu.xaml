@@ -18,6 +18,7 @@
                 <Label Text="Leiautes"/>
                 <Button Text="StackLayout" Clicked="AbrirStackLayout"/>
                 <Button Text="Grid" Clicked="AbrirGridLayout"/>
+                <Button Text="AbsoluteLayout" Clicked="AbrirAbsoluteLayout"/>
             </StackLayout>
         </ContentPage>
     </MasterDetailPage.Master>
