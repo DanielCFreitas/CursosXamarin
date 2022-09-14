@@ -67,5 +67,11 @@ namespace AppGallery.AppBase
             ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Leiaouts.AbsolutoLeiaout.Absoluo();
             ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
         }
+
+        private void AbrirRelativeLayout(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Leiaouts.RelativoLeiaout.Relativo();
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
     }
 }
