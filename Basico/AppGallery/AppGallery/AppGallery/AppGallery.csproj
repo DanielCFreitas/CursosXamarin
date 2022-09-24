@@ -25,6 +25,9 @@
     <EmbeddedResource Update="XamarinForms\Leiaouts\AbsolutoLeiaout\Absoluo.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="XamarinForms\Leiaouts\BarraDeRolagemLaiout\BarraDeRolagem.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="XamarinForms\Leiaouts\FlexivelLeiaout\Flexivel.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
