@@ -20,6 +20,7 @@
                 <Button Text="Grid" Clicked="AbrirGridLayout"/>
                 <Button Text="AbsoluteLayout" Clicked="AbrirAbsoluteLayout"/>
                 <Button Text="RelativeLayout" Clicked="AbrirRelativeLayout"/>
+                <Button Text="FlexLayout" Clicked="AbrirFlexLayout"/>
             </StackLayout>
         </ContentPage>
     </MasterDetailPage.Master>
