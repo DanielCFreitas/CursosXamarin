@@ -85,5 +85,11 @@ namespace AppGallery.AppBase
             ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Leiaouts.BarraDeRolagemLaiout.BarraDeRolagem();
             ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
         }
+
+        private void AbrirContentView(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Leiaouts.ControleLeiout.Controle();
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
     }
 }
