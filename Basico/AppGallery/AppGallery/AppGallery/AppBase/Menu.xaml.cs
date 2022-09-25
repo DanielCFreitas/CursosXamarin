@@ -91,5 +91,11 @@ namespace AppGallery.AppBase
             ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Leiaouts.ControleLeiout.Controle();
             ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
         }
+
+        private void AbrirFrame(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Leiaouts.QuadradoLeiaout.Quadrado();
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
     }
 }
