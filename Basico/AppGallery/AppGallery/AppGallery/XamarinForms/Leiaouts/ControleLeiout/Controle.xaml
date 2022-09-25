@@ -5,9 +5,11 @@
              xmlns:controle="clr-namespace:AppGallery.XamarinForms.Leiaouts.ControleLeiout">
     <ContentPage.Content>
         <StackLayout>
-            <controle:CardHorizontal />
-            <controle:CardHorizontal />
-            <controle:CardHorizontal />
+            <controle:CardHorizontal Titulo="Notícia 01" Texto="Texto 01" Cor="Blue" />
+            <controle:CardHorizontal Titulo="Notícia 02" Texto="Texto 02" Cor="Red"/>
+            <controle:CardHorizontal Titulo="Notícia 03" Texto="Texto 03" Cor="#202020"/>
+
+            <controle:CardDiretor Nome="Daniel" Descricao="Suspense" BoxViewColor="Blue" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

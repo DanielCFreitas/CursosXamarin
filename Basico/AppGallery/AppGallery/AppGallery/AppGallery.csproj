@@ -28,6 +28,9 @@
     <EmbeddedResource Update="XamarinForms\Leiaouts\BarraDeRolagemLaiout\BarraDeRolagem.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="XamarinForms\Leiaouts\ControleLeiout\CardDiretor.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="XamarinForms\Leiaouts\ControleLeiout\CardHorizontal.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
