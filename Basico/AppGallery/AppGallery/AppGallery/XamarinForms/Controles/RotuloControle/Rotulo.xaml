@@ -5,6 +5,24 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Padding="10">
+                <Label Text="TextType" TextColor="Black" />
+                <Label Text="Texto &lt;strong&gt;01 &lt;strong&gt;" TextType="Html" />
+                <Label TextType="Html">
+                    <![CDATA[
+                        Texto <strong><i>02</i></strong>
+                    ]]>
+                </Label>
+
+                <Label Text="FormattedText" TextColor="Black" />
+                <Label>
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Texto " TextColor="Green" FontSize="8" />
+                            <Span Text="01" TextColor="Red" FontSize="24" />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+
                 <Label Text="TextColor" TextColor="Black" />
                 <Label Text="Texto01" TextColor="#FF0000"/>
                 <Label Text="Texto02" TextColor="#7fFF0000"/>
