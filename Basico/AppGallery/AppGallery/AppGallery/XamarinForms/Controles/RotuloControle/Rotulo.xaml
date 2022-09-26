@@ -5,6 +5,14 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Padding="10">
+                <Label Text="FontFamily, FontSize, FontAttributes" TextColor="Black" />
+                <Label Text="Texto01" FontFamily="sans-serif-condensed" FontSize="24" FontAttributes="Italic, Bold"/>
+                <Label Text="Texto02" />
+                
+                <Label Text="HorizontalTextAlign, VerticalTextAlign" TextColor="Black" />
+                <Label Text="Texto01" BackgroundColor="Black" HorizontalTextAlignment="Center" TextColor="White" HeightRequest="60" WidthRequest="100" HorizontalOptions="Start" />
+                <Label Text="Texto02" BackgroundColor="Black" VerticalTextAlignment="Center" TextColor="White" HeightRequest="60" WidthRequest="100" HorizontalOptions="Start" />
+                
                 <Label Text="TextType" TextColor="Black" />
                 <Label Text="Texto &lt;strong&gt;01 &lt;strong&gt;" TextType="Html" />
                 <Label TextType="Html">
@@ -36,7 +44,12 @@
                 <Label Text="Texto01" CharacterSpacing="-2" />
                 <Label Text="Texto02" CharacterSpacing="15"/>
 
-                
+                <Label Text="LineHeight" TextColor="Black" />
+                <Label Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum eleifend ex, at mollis tortor aliquet ac. Phasellus enim justo, faucibus pharetra viverra vitae, pellentesque ut felis. Fusce non risus dictum elit interdum dapibus. Etiam laoreet vel nibh vitae accumsan. Phasellus vestibulum pellentesque blandit. Curabitur tincidunt sit amet tortor at imperdiet. Donec dui lorem, sagittis a porttitor et, aliquam et eros. In ut lectus quis ante tempor efficitur nec id quam. Aenean bibendum tortor in ex porttitor, nec ultricies enim venenatis. Quisque diam felis, lobortis ac purus et, consectetur hendrerit leo." 
+                       MaxLines="3"
+                       LineHeight="2"/>
+
+
                 <Label Text="MaxLines" TextColor="Black" />
                 <Label Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum eleifend ex, at mollis tortor aliquet ac. Phasellus enim justo, faucibus pharetra viverra vitae, pellentesque ut felis. Fusce non risus dictum elit interdum dapibus. Etiam laoreet vel nibh vitae accumsan. Phasellus vestibulum pellentesque blandit. Curabitur tincidunt sit amet tortor at imperdiet. Donec dui lorem, sagittis a porttitor et, aliquam et eros. In ut lectus quis ante tempor efficitur nec id quam. Aenean bibendum tortor in ex porttitor, nec ultricies enim venenatis. Quisque diam felis, lobortis ac purus et, consectetur hendrerit leo." 
                        MaxLines="3" />
