@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppGallery.XamarinForms.Controles.RotuloControle.Rotulo">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+                <Label Text="TextColor" TextColor="Black" />
+                <Label Text="Texto01" TextColor="#FF0000"/>
+                <Label Text="Texto02" TextColor="#7fFF0000"/>
+                
+                <Label Text="TextDecorations" TextColor="Black" />
+                <Label Text="Texto01" TextDecorations="Strikethrough" />
+                <Label Text="Texto02" TextDecorations="Underline"/>
+
+                
+                <Label Text="CharacterSpacing" TextColor="Black" />
+                <Label Text="Texto01" CharacterSpacing="-2" />
+                <Label Text="Texto02" CharacterSpacing="15"/>
+
+                
+                <Label Text="MaxLines" TextColor="Black" />
+                <Label Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum eleifend ex, at mollis tortor aliquet ac. Phasellus enim justo, faucibus pharetra viverra vitae, pellentesque ut felis. Fusce non risus dictum elit interdum dapibus. Etiam laoreet vel nibh vitae accumsan. Phasellus vestibulum pellentesque blandit. Curabitur tincidunt sit amet tortor at imperdiet. Donec dui lorem, sagittis a porttitor et, aliquam et eros. In ut lectus quis ante tempor efficitur nec id quam. Aenean bibendum tortor in ex porttitor, nec ultricies enim venenatis. Quisque diam felis, lobortis ac purus et, consectetur hendrerit leo." 
+                       MaxLines="3" />
+
+                
+                <Label Text="LineBreakMode" TextColor="Black" />
+                <Label Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum eleifend ex, at mollis tortor aliquet ac. Phasellus enim justo, faucibus pharetra viverra vitae, pellentesque ut felis. Fusce non risus dictum elit interdum dapibus. Etiam laoreet vel nibh vitae accumsan. Phasellus vestibulum pellentesque blandit. Curabitur tincidunt sit amet tortor at imperdiet. Donec dui lorem, sagittis a porttitor et, aliquam et eros. In ut lectus quis ante tempor efficitur nec id quam. Aenean bibendum tortor in ex porttitor, nec ultricies enim venenatis. Quisque diam felis, lobortis ac purus et, consectetur hendrerit leo." 
+                       TextColor="Gray" 
+                       LineBreakMode="WordWrap"/>
+                <Label Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum eleifend ex, at mollis tortor aliquet ac. Phasellus enim justo, faucibus pharetra viverra vitae, pellentesque ut felis. Fusce non risus dictum elit interdum dapibus. Etiam laoreet vel nibh vitae accumsan. Phasellus vestibulum pellentesque blandit. Curabitur tincidunt sit amet tortor at imperdiet. Donec dui lorem, sagittis a porttitor et, aliquam et eros. In ut lectus quis ante tempor efficitur nec id quam. Aenean bibendum tortor in ex porttitor, nec ultricies enim venenatis. Quisque diam felis, lobortis ac purus et, consectetur hendrerit leo." 
+                       TextColor="Green"
+                       LineBreakMode="NoWrap"/>
+                <Label Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum eleifend ex, at mollis tortor aliquet ac. Phasellus enim justo, faucibus pharetra viverra vitae, pellentesque ut felis. Fusce non risus dictum elit interdum dapibus. Etiam laoreet vel nibh vitae accumsan. Phasellus vestibulum pellentesque blandit. Curabitur tincidunt sit amet tortor at imperdiet. Donec dui lorem, sagittis a porttitor et, aliquam et eros. In ut lectus quis ante tempor efficitur nec id quam. Aenean bibendum tortor in ex porttitor, nec ultricies enim venenatis. Quisque diam felis, lobortis ac purus et, consectetur hendrerit leo." 
+                       TextColor="Gray"
+                       LineBreakMode="CharacterWrap"/>
+                <Label Text="Head: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum eleifend ex, at mollis tortor aliquet ac. Phasellus enim justo, faucibus pharetra viverra vitae, pellentesque ut felis. Fusce non risus dictum elit interdum dapibus. Etiam laoreet vel nibh vitae accumsan. Phasellus vestibulum pellentesque blandit. Curabitur tincidunt sit amet tortor at imperdiet. Donec dui lorem, sagittis a porttitor et, aliquam et eros. In ut lectus quis ante tempor efficitur nec id quam. Aenean bibendum tortor in ex porttitor, nec ultricies enim venenatis. Quisque diam felis, lobortis ac purus et, consectetur hendrerit leo." 
+                       TextColor="Green"
+                       LineBreakMode="HeadTruncation"/>
+                <Label Text="Middle: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum eleifend ex, at mollis tortor aliquet ac. Phasellus enim justo, faucibus pharetra viverra vitae, pellentesque ut felis. Fusce non risus dictum elit interdum dapibus. Etiam laoreet vel nibh vitae accumsan. Phasellus vestibulum pellentesque blandit. Curabitur tincidunt sit amet tortor at imperdiet. Donec dui lorem, sagittis a porttitor et, aliquam et eros. In ut lectus quis ante tempor efficitur nec id quam. Aenean bibendum tortor in ex porttitor, nec ultricies enim venenatis. Quisque diam felis, lobortis ac purus et, consectetur hendrerit leo." 
+                       TextColor="Gray"
+                       LineBreakMode="MiddleTruncation"/>
+                <Label Text="Tail: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum eleifend ex, at mollis tortor aliquet ac. Phasellus enim justo, faucibus pharetra viverra vitae, pellentesque ut felis. Fusce non risus dictum elit interdum dapibus. Etiam laoreet vel nibh vitae accumsan. Phasellus vestibulum pellentesque blandit. Curabitur tincidunt sit amet tortor at imperdiet. Donec dui lorem, sagittis a porttitor et, aliquam et eros. In ut lectus quis ante tempor efficitur nec id quam. Aenean bibendum tortor in ex porttitor, nec ultricies enim venenatis. Quisque diam felis, lobortis ac purus et, consectetur hendrerit leo." 
+                       TextColor="Green"
+                       LineBreakMode="TailTruncation"/>
+
+                
+                <!-- Template Base 
+                <Label Text="TextDecorations" TextColor="Black" />
+                <Label Text="Texto01" />
+                <Label Text="Texto02" />
+                -->
+            
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -25,6 +25,9 @@
                     <Button Text="ScrollView" Clicked="AbrirScrollView" />
                     <Button Text="ContentView" Clicked="AbrirContentView" />
                     <Button Text="Frame" Clicked="AbrirFrame" />
+
+                    <Label Text="Controler"/>
+                    <Button Text="Label" Clicked="AbrirLabel" />
                 </StackLayout>
             </ScrollView>
         </ContentPage>
