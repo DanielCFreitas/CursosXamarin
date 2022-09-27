@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ext="clr-namespace:AppGallery.XamarinForms.Controles.ImagemControle"
+             x:Class="AppGallery.XamarinForms.Controles.ImagemControle.Imagem">
+    <ContentPage.Content>
+        <StackLayout>
+            <!-- Imagem do Recurso -->
+            <Image x:Name="Imagem01" Source="{ext:ImageResource AppGallery.XamarinForms.Controles.ImagemControle.background.jpg}" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

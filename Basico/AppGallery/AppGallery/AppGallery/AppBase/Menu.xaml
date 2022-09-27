@@ -28,6 +28,7 @@
 
                     <Label Text="Controler"/>
                     <Button Text="Label" Clicked="AbrirLabel" />
+                    <Button Text="Image" Clicked="AbrirImage" />
                 </StackLayout>
             </ScrollView>
         </ContentPage>
