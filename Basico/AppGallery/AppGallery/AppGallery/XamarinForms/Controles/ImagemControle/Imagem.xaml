@@ -5,13 +5,15 @@
              x:Class="AppGallery.XamarinForms.Controles.ImagemControle.Imagem">
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout Spacing="100">
+            <StackLayout>
                 <!-- Imagem do Recurso -->
+                <Label Text="Source: Recurso / Aspect: AspectFit"/>
                 <Image x:Name="Imagem01" 
                        Source="{ext:ImageResource AppGallery.XamarinForms.Controles.ImagemControle.background.jpg}"
                        Aspect="AspectFit"/>
             
                 <!-- Imagens dentro dos projetos especificos (Dentro do Projeto Android e Dentro do projeto iOS)-->
+                <Label Text="Source: File / Aspect: AspectFill"/>
                 <Image 
                     Source="xamarin.png"
                     HeightRequest="150"
@@ -20,6 +22,7 @@
                     Aspect="AspectFill"/>
             
                 <!-- URI -->
+                <Label Text="Source: Uri / Aspect: Fill"/>
                 <Image Source="http://287439959171826895.weebly.com/uploads/2/0/3/6/20365379/9725204_orig.jpg" 
                        Aspect="Fill"/>
             </StackLayout>
