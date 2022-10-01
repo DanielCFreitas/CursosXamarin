@@ -30,6 +30,9 @@
                     <Button Text="Label" Clicked="AbrirLabel" />
                     <Button Text="Image" Clicked="AbrirImage" />
                     <Button Text="Entry" Clicked="AbrirEntry" />
+
+                    <Label Text="Listas"/>
+                    <Button Text="TableView" Clicked="AbrirTableView" />
                 </StackLayout>
             </ScrollView>
         </ContentPage>

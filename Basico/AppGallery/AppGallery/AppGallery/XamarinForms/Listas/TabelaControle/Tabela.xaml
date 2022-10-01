@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppGallery.XamarinForms.Listas.TabelaControle.Tabela">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="TableView" />
+            <Label Text="Propriedade(s):" />
+
+            <!-- TextCell, ImageCell, EntryCell, SwitchCell, ViewCell -->
+            <TableView>
+                <TableRoot>
+                    <TableSection Title="Gerência">
+                        <TextCell Text="Geraldo Rodrigues Souza" TextColor="Gray" Detail="Gerente de TI" DetailColor="DimGray"/>
+                        <TextCell Text="José Rodrigues Souza" TextColor="Gray" Detail="Gerente Financeiro" DetailColor="DimGray"/>
+                        <TextCell Text="Edson Rodrigues Souza" TextColor="Gray" Detail="Gerente de Comunicação" DetailColor="DimGray"/>
+                    </TableSection>
+
+                    <TableSection Title="Supervisores">
+                        <ImageCell Text="Supervisor de TI" TextColor="Gray" Detail="Alex Ribeiro da Silva" DetailColor="DimGray" ImageSource="profile_photo.jpg"/>
+                    </TableSection>
+
+                    <TableSection Title="Operacionais">
+                        <TextCell Text="Rodrigo Ferreira Costa" TextColor="Gray" Detail="Analista de Sistemas Jr" DetailColor="DimGray"/>
+                    </TableSection>
+
+                    <TableSection Title="Formulário de Cadastro">
+                        <EntryCell Label="Nome: " LabelColor="Gray" Placeholder="Digite o nome do funcionário"/>
+                        <EntryCell Label="Nome da mãe: " LabelColor="Gray" Placeholder="Digite o nome da mãe do funcionário"/>
+                        <SwitchCell Text="É casado?" On="True" OnColor="Green" />
+                    </TableSection>
+                </TableRoot>
+            </TableView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

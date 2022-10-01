@@ -184,4 +184,7 @@
       <Name>AppGallery</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\profile_photo.jpg" />
+  </ItemGroup>
 </Project>

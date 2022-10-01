@@ -115,5 +115,11 @@ namespace AppGallery.AppBase
             ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Controles.CampoDeEntradaSimplesControle.CampoDeEntradaSimples();
             ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
         }
+
+        private void AbrirTableView(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Listas.TabelaControle.Tabela();
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
     }
 }
